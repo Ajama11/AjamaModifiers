@@ -1,0 +1,17 @@
+{
+  "AJAMAMODIFIERS-VARIETY_PACK.description": "Start with [gold]Advanced Scroll Boxes[/gold], [gold]Scroll Boxes[/gold], [blue]2[/blue] [gold]New Leaves[/gold], and [gold]Pomander[/gold].",
+  "AJAMAMODIFIERS-VARIETY_PACK.title": "Variety Pack",
+  "AJAMAMODIFIERS-HEIRLOOM.title": "Heirloom",
+  "AJAMAMODIFIERS-HEIRLOOM.description": "Start with a random [gold]Rare Relic[/gold].",
+  "AJAMAMODIFIERS-SIGNATURE.title": "",
+  "AJAMAMODIFIERS-SIGNATURE.description": "",
+  "AJAMAMODIFIERS-SIGNATURE_ITEM.title": "Signature Item",
+  "AJAMAMODIFIERS-SIGNATURE_ITEM.description": "Start with a random [gold]Relic[/gold] specific to your character.",
+  "AJAMAMODIFIERS-BYRD_FRIEND.title": "Byrd Friend",
+  "AJAMAMODIFIERS-BYRD_FRIEND.description": "Start with [gold]Byrdpip[/gold].",
+  "AJAMAMODIFIERS-GOOPERT.title": "Goopert",
+  "AJAMAMODIFIERS-GOOPERT.description": "Start with [gold]Pael's Legion[/gold].",
+  "AJAMAMODIFIERS-LETS_GO_GAMBLING.title": "Let's Go Gambling",
+  "AJAMAMODIFIERS-LETS_GO_GAMBLING.description": "[gold]Transform[/gold] [blue]2[/blue] cards into [gold]Jackpot[/gold] and [gold]Discovery[/gold].",
+  "AJAMAMODIFIERS-LETS_GO_GAMBLING.selectionScreenPrompt": "Choose {Amount:plural:a card|[blue]{}[/blue] cards} to [gold]Transform[/gold] into [gold]Jackpot[/gold] and [gold]Discovery[/gold]."
+}

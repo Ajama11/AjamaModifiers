@@ -1,0 +1,15 @@
+{
+  "id": "AjamaModifiers",
+  "name": "Ajama Modifiers",
+  "author": "Ajama",
+  "description": "awawa",
+  "version": "v0.0.1",
+  "has_pck": true,
+  "has_dll": true,
+  "min_game_version": "0.106.1",
+  "dependencies":
+  [
+    {"id": "BaseLib", "min_version": "3.1.8"}
+  ],
+  "affects_gameplay": true
+}
