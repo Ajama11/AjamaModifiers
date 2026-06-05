@@ -1,6 +1,8 @@
 ﻿using BaseLib.Abstracts;
 using BaseLib.Extensions;
 using AjamaModifiers.AjamaModifiersCode.Extensions;
+using BaseLib.Utils;
+using MegaCrit.Sts2.Core.Models.RelicPools;
 
 namespace AjamaModifiers.AjamaModifiersCode.Relics;
 
@@ -10,6 +12,7 @@ namespace AjamaModifiers.AjamaModifiersCode.Relics;
 /// This will generate a class that extends this one.
 /// You can also just create the class manually; just make sure to inherit from this class.
 /// </summary>
+[Pool(typeof(EventRelicPool))]
 public abstract class AjamaModifiersRelic : CustomRelicModel
 {
     //AjamaModifiers/images/relics

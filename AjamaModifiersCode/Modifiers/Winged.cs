@@ -1,13 +1,14 @@
+using AjamaModifiers.AjamaModifiersCode.Relics;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Players;
 using MegaCrit.Sts2.Core.Models;
-using MegaCrit.Sts2.Core.Models.Relics;
+using MegaCrit.Sts2.Core.Models.Modifiers;
 
 namespace AjamaModifiers.AjamaModifiersCode.Modifiers;
 
-public class Goopert() : AjamaModifier
+public class Winged() : AjamaModifier
 {
-    public override IEnumerable<ModifierModel> MutuallyExclusiveGroup => [ModelDb.Modifier<ByrdFriend>()];
+    public override IEnumerable<ModifierModel> MutuallyExclusiveGroup => [ModelDb.Modifier<Flight>()];
     
     public override Func<Task> GenerateNeowOption(EventModel eventModel)
     {
@@ -16,6 +17,6 @@ public class Goopert() : AjamaModifier
 
     private static async Task DoThings(Player player)
     {
-        await RelicCmd.Obtain(ModelDb.Relic<PaelsLegion>().ToMutable(), player);
+        await RelicCmd.Obtain(ModelDb.Relic<AdvancedWingedBoots>().ToMutable(), player);
     }
 }

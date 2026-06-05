@@ -13,5 +13,9 @@
   "AJAMAMODIFIERS-GOOPERT.description": "Start with [gold]Pael's Legion[/gold].",
   "AJAMAMODIFIERS-LETS_GO_GAMBLING.title": "Let's Go Gambling",
   "AJAMAMODIFIERS-LETS_GO_GAMBLING.description": "[gold]Transform[/gold] [blue]2[/blue] cards into [gold]Jackpot[/gold] and [gold]Discovery[/gold].",
-  "AJAMAMODIFIERS-LETS_GO_GAMBLING.selectionScreenPrompt": "Choose {Amount:plural:a card|[blue]{}[/blue] cards} to [gold]Transform[/gold] into [gold]Jackpot[/gold] and [gold]Discovery[/gold]."
+  "AJAMAMODIFIERS-LETS_GO_GAMBLING.selectionScreenPrompt": "Choose {Amount:plural:a card|[blue]{}[/blue] cards} to [gold]Transform[/gold] into [gold]Jackpot[/gold] and [gold]Discovery[/gold].",
+  "AJAMAMODIFIERS-SIPPY.title": "Sippy",
+  "AJAMAMODIFIERS-SIPPY.description": "Start with a random [gold]Potion[/gold].",
+  "AJAMAMODIFIERS-WINGED.title": "Winged",
+  "AJAMAMODIFIERS-WINGED.description": "You may ignore paths when choosing the next room to travel to [blue]3[/blue] times.\nAt the start of each Act, gain another [blue]3[/blue] usages."
 }

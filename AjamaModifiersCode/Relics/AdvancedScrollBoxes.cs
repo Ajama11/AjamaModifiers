@@ -12,7 +12,6 @@ using MegaCrit.Sts2.Core.Runs;
 
 namespace AjamaModifiers.AjamaModifiersCode.Relics;
 
-[Pool(typeof(EventRelicPool))]
 public class AdvancedScrollBoxes() : AjamaModifiersRelic
 {
     public override RelicRarity Rarity =>

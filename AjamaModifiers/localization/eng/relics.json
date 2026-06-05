@@ -1,5 +1,8 @@
 {
   "AJAMAMODIFIERS-ADVANCED_SCROLL_BOXES.title": "Advanced Scroll Boxes",
   "AJAMAMODIFIERS-ADVANCED_SCROLL_BOXES.description": "Upon pickup, choose [blue]1[/blue] of [blue]3[/blue] packs of cards to add to your [gold]Deck[/gold].",
-  "AJAMAMODIFIERS-ADVANCED_SCROLL_BOXES.flavor": "Holographic pride."
+  "AJAMAMODIFIERS-ADVANCED_SCROLL_BOXES.flavor": "Holographic pride.",
+  "AJAMAMODIFIERS-ADVANCED_WINGED_BOOTS.title": "Advanced Winged Boots",
+  "AJAMAMODIFIERS-ADVANCED_WINGED_BOOTS.description": "You may ignore paths when choosing the next rooms to travel to [blue]{Rooms}[/blue] times.\nAt the start of each Act, gain another [blue]{ExtraRoomsPerAct}[/blue] usages.",
+  "AJAMAMODIFIERS-ADVANCED_WINGED_BOOTS.flavor": "Things are always better in blue. Or rainbow."
 }

@@ -9,12 +9,12 @@ namespace AjamaModifiers.AjamaModifiersCode.Modifiers;
 
 public class ByrdFriend() : AjamaModifier
 {
+    public override IEnumerable<ModifierModel> MutuallyExclusiveGroup => [ModelDb.Modifier<Goopert>()];
+    
     public override Func<Task> GenerateNeowOption(EventModel eventModel)
     {
         return () => DoThings(eventModel.Owner!);
     }
-
-    public override IEnumerable<ModifierModel> MutuallyExclusiveGroup => [ModelDb.Modifier<Goopert>()];
 
     private static async Task DoThings(Player player)
     {
