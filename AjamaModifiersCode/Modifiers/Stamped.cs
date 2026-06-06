@@ -1,13 +1,13 @@
-using AjamaModifiers.AjamaModifiersCode.Relics;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Players;
 using MegaCrit.Sts2.Core.Models;
+using MegaCrit.Sts2.Core.Models.Relics;
 
 namespace AjamaModifiers.AjamaModifiersCode.Modifiers;
 
-public class TooManyCards() : AjamaModifier
+public class Stamped() : AjamaModifier
 {
-    public override int SortOrder => -5;
+    public override int SortOrder => -1;
     
     public override Func<Task> GenerateNeowOption(EventModel eventModel)
     {
@@ -16,6 +16,6 @@ public class TooManyCards() : AjamaModifier
 
     private static async Task DoThings(Player player)
     {
-        await RelicCmd.Obtain(ModelDb.Relic<AdvancedGamblingChip>().ToMutable(), player);
+        await RelicCmd.Obtain(ModelDb.Relic<RoyalStamp>().ToMutable(), player);
     }
 }
