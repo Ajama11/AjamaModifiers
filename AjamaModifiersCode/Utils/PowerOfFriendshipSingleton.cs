@@ -27,6 +27,11 @@ public class PowerOfFriendshipSingleton() : CustomSingletonModel(HookType.Combat
 
             // await CardPileCmd.AddGeneratedCardToCombat(clone, PileType.Play, otherPlayer);
             await CardCmd.AutoPlay(choiceContext, clone, null);
+
+            if (clone is { HasBeenRemovedFromState: false })
+            {
+                PowerOfFriendshipField.IsDupe.Set(clone, false);
+            }
         }
     }
 }

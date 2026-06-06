@@ -60,6 +60,7 @@
     </ItemGroup>
 
     <ItemGroup>
+        <Folder Include="AjamaModifiersCode\Patches\" />
         <Folder Include="AjamaModifiers\images\card_portraits\big\"/>
         <Folder Include="AjamaModifiers\images\powers\big\"/>
     </ItemGroup>

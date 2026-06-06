@@ -19,5 +19,7 @@
   "AJAMAMODIFIERS-WINGED.title": "Winged",
   "AJAMAMODIFIERS-WINGED.description": "You may ignore paths when choosing the next room to travel to [blue]3[/blue] times.\nAt the start of each Act, gain another [blue]3[/blue] usages.",
   "AJAMAMODIFIERS-POWER_OF_FRIENDSHIP.title": "Power of Friendship",
-  "AJAMAMODIFIERS-POWER_OF_FRIENDSHIP.description": "[gold](Multiplayer)[/gold] Whenever someone plays a Power, ALL other players play that Power for free."
+  "AJAMAMODIFIERS-POWER_OF_FRIENDSHIP.description": "[gold](Multiplayer)[/gold] Whenever someone plays a Power, ALL other players play that Power for free.",
+  "AJAMAMODIFIERS-TOO_MANY_CARDS.title": "Too Many Cards",
+  "AJAMAMODIFIERS-TOO_MANY_CARDS.description": "[gold](Multiplayer)[/gold] At the start of combat, shuffle ALL other players' [gold]Decks[/gold] into your [gold]Draw Pile[/gold].\nAt the start of your turn, draw [blue]2[/blue] additional cards, and then discard any number of cards and draw that many."
 }

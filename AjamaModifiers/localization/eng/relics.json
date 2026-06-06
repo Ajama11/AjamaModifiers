@@ -4,5 +4,9 @@
   "AJAMAMODIFIERS-ADVANCED_SCROLL_BOXES.flavor": "Holographic pride.",
   "AJAMAMODIFIERS-ADVANCED_WINGED_BOOTS.title": "Advanced Winged Boots",
   "AJAMAMODIFIERS-ADVANCED_WINGED_BOOTS.description": "You may ignore paths when choosing the next rooms to travel to [blue]{Rooms}[/blue] times.\nAt the start of each Act, gain another [blue]{ExtraRoomsPerAct}[/blue] usages.",
-  "AJAMAMODIFIERS-ADVANCED_WINGED_BOOTS.flavor": "Things are always better in blue. Or rainbow."
+  "AJAMAMODIFIERS-ADVANCED_WINGED_BOOTS.flavor": "Things are always better in blue. Or rainbow.",
+  "AJAMAMODIFIERS-ADVANCED_GAMBLING_CHIP.title": "Advanced Gambling Chip",
+  "AJAMAMODIFIERS-ADVANCED_GAMBLING_CHIP.description": "#At the start of your turn, draw [blue]!C![/blue] additional card(s), and then discard any number of cards and draw that many.",
+  "AJAMAMODIFIERS-ADVANCED_GAMBLING_CHIP.flavor": "Always bet on red. Or rainbow.",
+  "AJAMAMODIFIERS-ADVANCED_GAMBLING_CHIP.selectionScreenPrompt": "Choose any number of cards to replace."
 }

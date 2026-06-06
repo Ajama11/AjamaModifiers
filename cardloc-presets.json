@@ -159,6 +159,11 @@
           "name": "flavor",
           "file": "relics.json",
           "optional": false
+        },
+        {
+          "name": "selectionScreenPrompt",
+          "file": "relics.json",
+          "optional": true
         }
       ]
     },
