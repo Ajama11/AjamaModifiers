@@ -8,14 +8,4 @@ namespace AjamaModifiers.AjamaModifiersCode.Modifiers;
 public class TooManyCards() : AjamaModifier
 {
     public override int SortOrder => -5;
-    
-    public override Func<Task> GenerateNeowOption(EventModel eventModel)
-    {
-        return () => DoThings(eventModel.Owner!);
-    }
-
-    private static async Task DoThings(Player player)
-    {
-        await RelicCmd.Obtain(ModelDb.Relic<AdvancedGamblingChip>().ToMutable(), player);
-    }
 }

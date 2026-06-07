@@ -21,7 +21,7 @@
   "AJAMAMODIFIERS-POWER_OF_FRIENDSHIP.title": "Power of Friendship",
   "AJAMAMODIFIERS-POWER_OF_FRIENDSHIP.description": "[gold](Multiplayer)[/gold] Whenever someone plays a Power, ALL other players play that Power for free.",
   "AJAMAMODIFIERS-TOO_MANY_CARDS.title": "Too Many Cards",
-  "AJAMAMODIFIERS-TOO_MANY_CARDS.description": "[gold](Multiplayer)[/gold] At the start of combat, shuffle ALL other players' [gold]Decks[/gold] into your [gold]Draw Pile[/gold].\nAt the start of your turn, draw [blue]2[/blue] additional cards, and then discard any number of cards and draw that many.",
+  "AJAMAMODIFIERS-TOO_MANY_CARDS.description": "[gold](Multiplayer)[/gold] At the start of combat, shuffle ALL other players' [gold]Decks[/gold] into your [gold]Draw Pile[/gold].\nAt the start of your turn, per each additional player, draw [blue]5[/blue] additional cards and increase your max [gold]Hand[/gold] size by [blue]5[/blue].",
   "AJAMAMODIFIERS-BARRICADE_GAMBIT.title": "Barricade Gambit",
   "AJAMAMODIFIERS-BARRICADE_GAMBIT.description": "At the start of each combat, gain [blue]75[/blue] [gold]Block[/gold], [gold]Barricade[/gold], and [red]The Gambit[/red].",
   "AJAMAMODIFIERS-STAMPED.title": "Stamped",
