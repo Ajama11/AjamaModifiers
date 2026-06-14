@@ -33,7 +33,7 @@ public class VarietyPack : AjamaModifier
         RewardsSet rewardsSet = new RewardsSet(player)
             .WithCustomRewards(rewards);
 
-        if (!player.RunState.Modifiers.Any(m => m.Id == ModelDb.Modifier<Pandora>().Id || m.ClearsPlayerDeck))
+        if (!player.RunState.Modifiers.Any(m => m.Id == ModelDb.Modifier<Pandora>().Id || m.Id == ModelDb.Modifier<BoosterPack>().Id || m.ClearsPlayerDeck))
         {
             rewardsSet = rewardsSet.WithSkippingDisallowed();
         }

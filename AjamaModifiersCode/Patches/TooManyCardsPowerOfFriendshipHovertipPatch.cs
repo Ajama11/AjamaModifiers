@@ -26,9 +26,9 @@ public static class TooManyCardsPowerOfFriendshipHovertipPatch
 
         string hash = field.Split("(")[1].Split(")")[0];
 
-        LocString title = new LocString("static_hover_tips", "AJAMAMODIFIERS-POWER_OF_FRIENDSHIP.title");
+        LocString title = new LocString("static_hover_tips", "AJAMAMODIFIERS-TOO_MANY_CARDS_POWER_OF_FRIENDSHIP.title");
         
-        LocString description = new LocString("static_hover_tips", "AJAMAMODIFIERS-POWER_OF_FRIENDSHIP.description");
+        LocString description = new LocString("static_hover_tips", "AJAMAMODIFIERS-TOO_MANY_CARDS_POWER_OF_FRIENDSHIP.description");
 
         Texture2D icon = ModelDb.Modifier<PowerOfFriendship>().Icon;
         
