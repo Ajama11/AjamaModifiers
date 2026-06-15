@@ -205,6 +205,11 @@
           "name": "description",
           "file": "enchantments.json",
           "optional": false
+        },
+        {
+          "name": "extraCardText",
+          "file": "enchantments.json",
+          "optional": true
         }
       ]
     },

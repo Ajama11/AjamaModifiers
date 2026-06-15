@@ -8,5 +8,8 @@
   "AJAMAMODIFIERS-ADVANCED_GAMBLING_CHIP.title": "Advanced Gambling Chip",
   "AJAMAMODIFIERS-ADVANCED_GAMBLING_CHIP.description": "#At the start of your turn, draw [blue]!C![/blue] additional card(s), and then discard any number of cards and draw that many.",
   "AJAMAMODIFIERS-ADVANCED_GAMBLING_CHIP.flavor": "Always bet on red. Or rainbow.",
-  "AJAMAMODIFIERS-ADVANCED_GAMBLING_CHIP.selectionScreenPrompt": "Choose any number of cards to replace."
+  "AJAMAMODIFIERS-ADVANCED_GAMBLING_CHIP.selectionScreenPrompt": "Choose any number of cards to replace.",
+  "AJAMAMODIFIERS-ELECTRIC_EEYL.title": "Electric Eeyl",
+  "AJAMAMODIFIERS-ELECTRIC_EEYL.description": "Upon pickup, [gold]Enchant[/gold] a Power with [purple]Imbued[/purple].\nIf you have no Powers to [gold]Enchant[/gold], choose 1 of 3 Powers [gold]Enchanted[/gold] with [purple]Imbued[/purple] to add to your [gold]Deck[/gold].",
+  "AJAMAMODIFIERS-ELECTRIC_EEYL.flavor": "\"Ooh, girl!\""
 }

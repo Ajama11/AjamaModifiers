@@ -34,5 +34,7 @@
   "AJAMAMODIFIERS-MIRRORING.description": "[gold](Multiplayer)[/gold] Start with ALL other players' [gold]Starter Relics[/gold] (if you don't already have them) and [gold]Orb Slots[/gold] (if you have less).",
   "AJAMAMODIFIERS-BOOSTER_PACK.title": "Booster Pack",
   "AJAMAMODIFIERS-BOOSTER_PACK.description": "Choose [blue]5[/blue] cards to add to your starting deck. [gold]Remove[/gold] [blue]2[/blue] cards and [gold]Upgrade[/gold] [blue]1[/blue] card.",
-  "AJAMAMODIFIERS-BOOSTER_PACK.selectionScreenPrompt": "Choose [blue]5[/blue] cards to add to your starting deck."
+  "AJAMAMODIFIERS-BOOSTER_PACK.selectionScreenPrompt": "Choose [blue]5[/blue] cards to add to your starting deck.",
+  "AJAMAMODIFIERS-SHOCK_ME.title": "Shock Me",
+  "AJAMAMODIFIERS-SHOCK_ME.description": "[gold]Enchant[/gold] a Power with [purple]Imbued[/purple], playing it automatically at the start of combat."
 }
