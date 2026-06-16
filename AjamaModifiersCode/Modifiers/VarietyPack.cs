@@ -30,14 +30,8 @@ public class VarietyPack : AjamaModifier
             (r => new RelicReward(r, player)))
             .ToList();
 
-        RewardsSet rewardsSet = new RewardsSet(player)
-            .WithCustomRewards(rewards);
-
-        if (!player.RunState.Modifiers.Any(m => m.Id == ModelDb.Modifier<Pandora>().Id || m.Id == ModelDb.Modifier<BoosterPack>().Id || m.ClearsPlayerDeck))
-        {
-            rewardsSet = rewardsSet.WithSkippingDisallowed();
-        }
-
-        await rewardsSet.Offer();
+        await new RewardsSet(player)
+            .WithCustomRewards(rewards)
+            .Offer();
     }
 }
