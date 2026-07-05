@@ -18,7 +18,7 @@ public class BarricadeGambitSingleton() : CustomSingletonModel(HookType.Combat)
         
         if (player.PlayerCombatState!.TurnNumber > 1) return;
 
-        await CreatureCmd.GainBlock(player.Creature, 75, ValueProp.Unpowered, null, true);
+        await CreatureCmd.GainBlock(player.Creature, 50, ValueProp.Unpowered, null, true);
 
         await PowerCmd.Apply<BarricadePower>(choiceContext, player.Creature, 1, player.Creature, null);
         

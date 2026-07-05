@@ -1,7 +1,7 @@
 {
   "AJAMAMODIFIERS.mod_title": "Ajama's Custom Modifiers",
   "AJAMAMODIFIERS-TOO_MANY_CARDS_POWER_OF_FRIENDSHIP.title": "Too Many Friendships",
-  "AJAMAMODIFIERS-TOO_MANY_CARDS_POWER_OF_FRIENDSHIP.hover.desc": "When [gold]Too Many Cards[/gold] and [gold]Power of Friendship[/gold] are both enabled, there is special behaviour to link Power cards together.\n\nIf Player A plays the 'Accuracy' from Player B's deck, ALL players play that 'Accuracy' and remove that card from combat.\n\nDisable this to remove the special behaviour and let Players B, C, and D all individually play the Accuracy from Player B's deck for ALL players.",
-  "AJAMAMODIFIERS-PLACE_MODIFIERS_AT_BOTTOM.title": "Place Modifiers at the Bottom of the List",
+  "AJAMAMODIFIERS-TOO_MANY_CARDS_POWER_OF_FRIENDSHIP.hover.desc": "When [gold]Too Many Cards[/gold] and [gold]Power of Friendship[/gold] are both enabled, there is special behaviour to link Power cards together.\n\nIf Player 1 plays the 'Accuracy' from Player 2's deck, ALL players play that 'Accuracy' and remove that card from combat.\n\nDisable this to remove the special behaviour and let every player individually play the 'Accuracy' from Player 2's deck for ALL players.",
+  "AJAMAMODIFIERS-PLACE_MODIFIERS_AT_BOTTOM.title": "Place modifiers at the bottom of the list",
   "AJAMAMODIFIERS-PLACE_MODIFIERS_AT_BOTTOM.hover.desc": "Requires a game restart."
 }

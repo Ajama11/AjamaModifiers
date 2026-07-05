@@ -21,7 +21,7 @@
   "AJAMAMODIFIERS-TOO_MANY_CARDS.title": "Too Many Cards",
   "AJAMAMODIFIERS-TOO_MANY_CARDS.description": "[gold](Multiplayer)[/gold] At the start of combat, shuffle ALL other players' [gold]Decks[/gold] into your [gold]Draw Pile[/gold].\nPer each additional player, increase your max [gold]Hand[/gold] size by [blue]5[/blue], and draw [blue]5[/blue] additional cards at the start of your turn.",
   "AJAMAMODIFIERS-BARRICADE_GAMBIT.title": "Barricade Gambit",
-  "AJAMAMODIFIERS-BARRICADE_GAMBIT.description": "At the start of each combat, gain [blue]75[/blue] [gold]Block[/gold], [gold]Barricade[/gold], and [red]The Gambit[/red].",
+  "AJAMAMODIFIERS-BARRICADE_GAMBIT.description": "At the start of each combat, gain [blue]50[/blue] [gold]Block[/gold], [gold]Barricade[/gold], and [red]The Gambit[/red].",
   "AJAMAMODIFIERS-STAMPED.title": "Stamped",
   "AJAMAMODIFIERS-STAMPED.description": "[gold]Enchant[/gold] an Attack or Skill with [purple]Royally Approved[/purple], giving it [gold]Innate[/gold] and [gold]Retain[/gold].",
   "AJAMAMODIFIERS-PANDORA.title": "Pandora",
