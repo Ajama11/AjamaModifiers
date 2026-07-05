@@ -14,12 +14,12 @@ public static class TooManyCardsPowerOfFriendshipHovertipPatch
     [HarmonyPostfix]
     public static IEnumerable<IHoverTip> HashDisplayPostfix(IEnumerable<IHoverTip> __result, CardModel __instance)
     {
+        if (!Config.TooManyCardsPowerOfFriendship) return __result;
+        
         if (__instance.CombatState == null) return __result;
         
         if (__instance.RunState!.Modifiers.All(m => m.Id != ModelDb.Modifier<TooManyCards>().Id)) return __result;
         if (__instance.RunState.Modifiers.All(m => m.Id != ModelDb.Modifier<PowerOfFriendship>().Id)) return __result;
-        
-        // Check config here
 
         string? field = TooManyCardsField.PowerOfFriendshipId.Get(__instance);
         if (field == null) return __result;

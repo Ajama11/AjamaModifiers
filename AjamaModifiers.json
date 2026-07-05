@@ -1,9 +1,9 @@
 {
   "id": "AjamaModifiers",
-  "name": "Ajama Modifiers",
+  "name": "Ajama's Custom Modifiers",
   "author": "Ajama",
-  "description": "awawa",
-  "version": "v0.0.1",
+  "description": "Adds a bunch of Custom Run Modifiers.",
+  "version": "v1.0.0",
   "has_pck": true,
   "has_dll": true,
   "min_game_version": "0.106.1",
