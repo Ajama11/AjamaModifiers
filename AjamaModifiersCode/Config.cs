@@ -7,5 +7,6 @@ internal class Config : SimpleModConfig
     [ConfigHoverTip]
     public static bool TooManyCardsPowerOfFriendship { get; set; } = true;
     
+    [ConfigHoverTip]
     public static bool PlaceModifiersAtBottom { get; set; } = false;
 }
