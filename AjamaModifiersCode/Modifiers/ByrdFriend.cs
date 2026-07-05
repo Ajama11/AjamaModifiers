@@ -9,6 +9,8 @@ namespace AjamaModifiers.AjamaModifiersCode.Modifiers;
 
 public class ByrdFriend() : AjamaModifier
 {
+    public override int MySortOrder => -2;
+    
     public override IEnumerable<ModifierModel> MutuallyExclusiveGroup => [ModelDb.Modifier<Goopert>()];
     
     public override Func<Task> GenerateNeowOption(EventModel eventModel)

@@ -8,7 +8,7 @@ namespace AjamaModifiers.AjamaModifiersCode.Modifiers;
 
 public class Pandora() : AjamaModifier
 {
-    public override int SortOrder => -3;
+    public override int MySortOrder => -2;
     
     public override IEnumerable<ModifierModel> MutuallyExclusiveGroup => 
     [

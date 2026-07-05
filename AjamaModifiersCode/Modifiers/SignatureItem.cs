@@ -8,6 +8,8 @@ namespace AjamaModifiers.AjamaModifiersCode.Modifiers;
 
 public class SignatureItem() : AjamaModifier
 {
+    public override int MySortOrder => -3;
+    
     public override Func<Task> GenerateNeowOption(EventModel eventModel)
     {
         return () => DoThings(eventModel.Owner!);

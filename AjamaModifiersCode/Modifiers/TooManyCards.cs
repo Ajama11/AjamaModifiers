@@ -7,5 +7,5 @@ namespace AjamaModifiers.AjamaModifiersCode.Modifiers;
 
 public class TooManyCards() : AjamaModifier
 {
-    public override int SortOrder => -5;
+    public override int MySortOrder => -5;
 }

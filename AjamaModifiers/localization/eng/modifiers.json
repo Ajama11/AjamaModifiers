@@ -3,8 +3,6 @@
   "AJAMAMODIFIERS-VARIETY_PACK.title": "Variety Pack",
   "AJAMAMODIFIERS-HEIRLOOM.title": "Heirloom",
   "AJAMAMODIFIERS-HEIRLOOM.description": "Start with a random [gold]Rare Relic[/gold].",
-  "AJAMAMODIFIERS-SIGNATURE.title": "",
-  "AJAMAMODIFIERS-SIGNATURE.description": "",
   "AJAMAMODIFIERS-SIGNATURE_ITEM.title": "Signature Item",
   "AJAMAMODIFIERS-SIGNATURE_ITEM.description": "Start with a random [gold]Relic[/gold] specific to your character.",
   "AJAMAMODIFIERS-BYRD_FRIEND.title": "Byrd Friend",
@@ -25,7 +23,7 @@
   "AJAMAMODIFIERS-BARRICADE_GAMBIT.title": "Barricade Gambit",
   "AJAMAMODIFIERS-BARRICADE_GAMBIT.description": "At the start of each combat, gain [blue]75[/blue] [gold]Block[/gold], [gold]Barricade[/gold], and [red]The Gambit[/red].",
   "AJAMAMODIFIERS-STAMPED.title": "Stamped",
-  "AJAMAMODIFIERS-STAMPED.description": "Choose an Attack or Skill in your [gold]Deck[/gold] to [gold]Enchant[/gold] with [purple]Royally Approved[/purple], giving it [gold]Innate[/gold] and [gold]Retain[/gold].",
+  "AJAMAMODIFIERS-STAMPED.description": "[gold]Enchant[/gold] an Attack or Skill with [purple]Royally Approved[/purple], giving it [gold]Innate[/gold] and [gold]Retain[/gold].",
   "AJAMAMODIFIERS-PANDORA.title": "Pandora",
   "AJAMAMODIFIERS-PANDORA.description": "[gold]Transform[/gold] ALL Strikes and Defends.",
   "AJAMAMODIFIERS-SHRYMP_HEAVEN_NOW.title": "Shrymp Heaven Now",
@@ -36,5 +34,5 @@
   "AJAMAMODIFIERS-BOOSTER_PACK.description": "Choose [blue]5[/blue] cards to add to your starting deck. [gold]Remove[/gold] [blue]2[/blue] cards and [gold]Upgrade[/gold] [blue]1[/blue] card.",
   "AJAMAMODIFIERS-BOOSTER_PACK.selectionScreenPrompt": "Choose [blue]5[/blue] cards to add to your starting deck.",
   "AJAMAMODIFIERS-SHOCK_ME.title": "Shock Me",
-  "AJAMAMODIFIERS-SHOCK_ME.description": "[gold]Enchant[/gold] a Power with [purple]Imbued[/purple], playing it automatically at the start of combat."
+  "AJAMAMODIFIERS-SHOCK_ME.description": "[gold]Enchant[/gold] a Power with [purple]Imbued[/purple], playing it automatically at the start of combat. If you don't have a Power, choose 1 of 3 to obtain and [gold]Enchant[/gold]."
 }

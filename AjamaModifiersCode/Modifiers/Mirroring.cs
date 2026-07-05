@@ -6,7 +6,7 @@ namespace AjamaModifiers.AjamaModifiersCode.Modifiers;
 
 public class Mirroring() : AjamaModifier
 {
-    public override int SortOrder => -6;
+    public override int MySortOrder => -6;
     
     public override Func<Task> GenerateNeowOption(EventModel eventModel)
     {

@@ -8,7 +8,7 @@ namespace AjamaModifiers.AjamaModifiersCode.Modifiers;
 
 public class Heirloom() : AjamaModifier
 {
-    public override int SortOrder => -4;
+    public override int MySortOrder => -3;
 
     public override Func<Task> GenerateNeowOption(EventModel eventModel)
     {

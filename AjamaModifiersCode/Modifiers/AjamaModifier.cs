@@ -7,7 +7,9 @@ public abstract class AjamaModifier : CustomModifierModel
 {
     public override ModifierAlignment Alignment => ModifierAlignment.Good;
 
-    public override int SortOrder => -2;
+    public virtual int MySortOrder => -1;
+    
+    public override int SortOrder => Config.PlaceModifiersAtBottom ? 99 + MySortOrder : MySortOrder;
 
     protected override string IconPath =>
         Path.Join(
