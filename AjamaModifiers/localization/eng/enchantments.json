@@ -1,5 +1,9 @@
 {
   "AJAMAMODIFIERS-POWER_IMBUED.title": "Imbued",
   "AJAMAMODIFIERS-POWER_IMBUED.description": "This card is played automatically at the start of each combat.",
-  "AJAMAMODIFIERS-POWER_IMBUED.extraCardText": "Imbued."
+  "AJAMAMODIFIERS-POWER_IMBUED.extraCardText": "Imbued.",
+  "AJAMAMODIFIERS-AJAMA_MODIFIERS_ENCHANTMENT.title": "",
+  "AJAMAMODIFIERS-AJAMA_MODIFIERS_ENCHANTMENT.description": "",
+  "AJAMAMODIFIERS-ACCELERATED.title": "Accelerated",
+  "AJAMAMODIFIERS-ACCELERATED.description": "Costs [blue]1[/blue] less {energyPrefix:energyIcons(1)}."
 }

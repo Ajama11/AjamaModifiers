@@ -34,5 +34,7 @@
   "AJAMAMODIFIERS-BOOSTER_PACK.description": "Choose [blue]5[/blue] cards to add to your starting deck. [gold]Remove[/gold] [blue]2[/blue] cards and [gold]Upgrade[/gold] [blue]1[/blue] card.",
   "AJAMAMODIFIERS-BOOSTER_PACK.selectionScreenPrompt": "Choose [blue]5[/blue] cards to add to your starting deck.",
   "AJAMAMODIFIERS-SHOCK_ME.title": "Shock Me",
-  "AJAMAMODIFIERS-SHOCK_ME.description": "[gold]Enchant[/gold] a Power with [purple]Imbued[/purple], playing it automatically at the start of combat. If you don't have a Power, choose 1 of 3 to obtain and [gold]Enchant[/gold]."
+  "AJAMAMODIFIERS-SHOCK_ME.description": "[gold]Enchant[/gold] a Power with [purple]Imbued[/purple], playing it automatically at the start of combat. If you don't have a Power, choose 1 of 3 to obtain and [gold]Enchant[/gold].",
+  "AJAMAMODIFIERS-CONDENSE_TIME.title": "Condense Time",
+  "AJAMAMODIFIERS-CONDENSE_TIME.description": "You may [gold]Enchant[/gold] cards with [purple]Accelerated[/purple] at Rest Sites [blue]3[/blue] times, making them cost [blue]1[/blue] less Energy."
 }

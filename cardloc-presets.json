@@ -193,7 +193,8 @@
     {
       "id": "enchantment",
       "markers": [
-        "CustomEnchantmentModel"
+        "CustomEnchantmentModel",
+        "AjamaModifiersEnchantment"
       ],
       "fields": [
         {

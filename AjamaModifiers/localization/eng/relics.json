@@ -3,7 +3,7 @@
   "AJAMAMODIFIERS-ADVANCED_SCROLL_BOXES.description": "Upon pickup, choose [blue]1[/blue] of [blue]3[/blue] packs of cards to add to your [gold]Deck[/gold].",
   "AJAMAMODIFIERS-ADVANCED_SCROLL_BOXES.flavor": "Holographic pride.",
   "AJAMAMODIFIERS-ADVANCED_WINGED_BOOTS.title": "Advanced Winged Boots",
-  "AJAMAMODIFIERS-ADVANCED_WINGED_BOOTS.description": "You may ignore paths when choosing the next rooms to travel to [blue]{Rooms}[/blue] times.\nAt the start of each Act, gain another [blue]{ExtraRoomsPerAct}[/blue] usages.",
+  "AJAMAMODIFIERS-ADVANCED_WINGED_BOOTS.description": "You may ignore paths when choosing the next rooms to travel to {Rooms:plural:[blue]{}[/blue] time|[blue]{}[/blue] times}.\nAt the start of each Act, gain another [blue]{ExtraRoomsPerAct}[/blue] usages.",
   "AJAMAMODIFIERS-ADVANCED_WINGED_BOOTS.flavor": "Things are always better in blue. Or rainbow.",
   "AJAMAMODIFIERS-ADVANCED_GAMBLING_CHIP.title": "Advanced Gambling Chip",
   "AJAMAMODIFIERS-ADVANCED_GAMBLING_CHIP.description": "#At the start of your turn, draw [blue]!C![/blue] additional card(s), and then discard any number of cards and draw that many.",
@@ -11,5 +11,8 @@
   "AJAMAMODIFIERS-ADVANCED_GAMBLING_CHIP.selectionScreenPrompt": "Choose any number of cards to replace.",
   "AJAMAMODIFIERS-ELECTRIC_EEYL.title": "Electric Eeyl",
   "AJAMAMODIFIERS-ELECTRIC_EEYL.description": "Upon pickup, [gold]Enchant[/gold] a Power with [purple]Imbued[/purple].\nIf you have no Powers to [gold]Enchant[/gold], choose 1 of 3 Powers [gold]Enchanted[/gold] with [purple]Imbued[/purple] to add to your [gold]Deck[/gold].",
-  "AJAMAMODIFIERS-ELECTRIC_EEYL.flavor": "\"Ooh, girl!\""
+  "AJAMAMODIFIERS-ELECTRIC_EEYL.flavor": "\"Ooh, girl!\"",
+  "AJAMAMODIFIERS-CONDENSED_TIME.title": "Condensed Time",
+  "AJAMAMODIFIERS-CONDENSED_TIME.description": "#You may [gold]Enchant[/gold] cards with [purple]Accelerated[/purple] at Rest Sites {AmountRemaining:plural:[blue]{}[/blue] time|[blue]{}[/blue] times}.",
+  "AJAMAMODIFIERS-CONDENSED_TIME.flavor": "Sand flows in a state of exponential entropy, forward and back."
 }
