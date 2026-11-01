@@ -29,22 +29,20 @@ public class AdvancedWingedBoots() : AjamaModifiersRelic
         new (ExtraRoomsPerActKey, _extraRoomsPerAct)
     ];
 
-    private int _timesUsed;
-
     [SavedProperty]
     private int TimesUsed
     {
-        get => _timesUsed;
-        set 
+        get;
+        set
         {
             AssertMutable();
-            _timesUsed = value;
-            DynamicVars[RoomsKey].BaseValue = (_roomCount - _timesUsed);
+            field = value;
+            DynamicVars[RoomsKey].BaseValue = (_roomCount - field);
             InvokeDisplayAmountChanged();
             CheckIfUsedUp();
         }
     }
-    
+
     public override bool ShouldAllowFreeTravel() => !IsUsedUp;
     
     public override Task AfterRoomEntered(AbstractRoom room)
@@ -76,6 +74,7 @@ public class AdvancedWingedBoots() : AjamaModifiersRelic
 
     public override Task AfterActEntered()
     {
+        if (Owner.RunState.CurrentActIndex == 0) return Task.CompletedTask;
         TimesUsed -= _extraRoomsPerAct;
         return Task.CompletedTask;
     }
