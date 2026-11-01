@@ -1,6 +1,7 @@
 using AjamaModifiers.AjamaModifiersCode.Relics;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Players;
+using MegaCrit.Sts2.Core.Localization;
 using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Models.Modifiers;
 using MegaCrit.Sts2.Core.Models.Relics;
@@ -23,5 +24,18 @@ public class Winged() : AjamaModifier
         foreach (Player player1 in player.RunState.Players)
             player1.RelicGrabBag.Remove<WingedBoots>();
         player.RunState.SharedRelicGrabBag.Remove<WingedBoots>();
+    }
+
+    public override LocString Description
+    {
+        get
+        {
+            var loc = new LocString("modifiers", Id.Entry + ".description");
+            
+            loc.Add("Usages", Config.WingedBaseUsages);
+            loc.Add("ExtraUsagesPerAct", Config.WingedUsagesPerAct);
+            
+            return loc;
+        }
     }
 }

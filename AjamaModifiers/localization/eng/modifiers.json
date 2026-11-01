@@ -15,7 +15,7 @@
   "AJAMAMODIFIERS-SIPPY.title": "Sippy",
   "AJAMAMODIFIERS-SIPPY.description": "Start with a random [gold]Potion[/gold].",
   "AJAMAMODIFIERS-WINGED.title": "Winged",
-  "AJAMAMODIFIERS-WINGED.description": "You may ignore paths when choosing the next room to travel to [blue]3[/blue] times.\nAt the start of each Act, gain another [blue]3[/blue] usages.",
+  "AJAMAMODIFIERS-WINGED.description": "#You may ignore paths when choosing the next rooms to travel to [blue]{Usages}[/blue] time(s).{ExtraUsagesPerAct:cond:>0?\nAt the start of each Act, gain another {ExtraUsagesPerAct:cond:==1?usage|[blue]{}[/blue] usages}.|}",
   "AJAMAMODIFIERS-POWER_OF_FRIENDSHIP.title": "Power of Friendship",
   "AJAMAMODIFIERS-POWER_OF_FRIENDSHIP.description": "[gold](Multiplayer)[/gold] Whenever someone plays a Power, ALL other players play that Power for free.",
   "AJAMAMODIFIERS-TOO_MANY_CARDS.title": "Too Many Cards",
@@ -36,5 +36,7 @@
   "AJAMAMODIFIERS-SHOCK_ME.title": "Shock Me",
   "AJAMAMODIFIERS-SHOCK_ME.description": "[gold]Enchant[/gold] a Power with [purple]Imbued[/purple], playing it automatically at the start of combat. If you don't have a Power, choose 1 of 3 to obtain and [gold]Enchant[/gold].",
   "AJAMAMODIFIERS-CONDENSE_TIME.title": "Condense Time",
-  "AJAMAMODIFIERS-CONDENSE_TIME.description": "You may [gold]Enchant[/gold] cards with [purple]Accelerated[/purple] at Rest Sites [blue]3[/blue] times, making them cost [blue]1[/blue] less Energy."
+  "AJAMAMODIFIERS-CONDENSE_TIME.description": "You may [gold]Enchant[/gold] cards with [purple]Accelerated[/purple] at Rest Sites [blue]3[/blue] times, making them cost [blue]1[/blue] less Energy.",
+  "AJAMAMODIFIERS-LOOKING_GLASS.title": "Looking Glass",
+  "AJAMAMODIFIERS-LOOKING_GLASS.description": "Start with [gold]Glass Eye[/gold]."
 }

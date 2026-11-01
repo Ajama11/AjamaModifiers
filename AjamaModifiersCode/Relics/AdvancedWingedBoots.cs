@@ -13,20 +13,20 @@ public class AdvancedWingedBoots() : AjamaModifiersRelic
     public override RelicRarity Rarity =>
         RelicRarity.Ancient;
 
-    private const string RoomsKey = "Rooms";
-    private const int _roomCount = 3;
+    private const string UsagesKey = "Usages";
+    private int Usages { get; set; } = Config.WingedBaseUsages;
     
-    private const string ExtraRoomsPerActKey = "ExtraRoomsPerAct";
-    private const int _extraRoomsPerAct = 3;
+    private const string ExtraUsagesPerActKey = "ExtraUsagesPerAct";
+    private int ExtraUsagesPerAct { get; set; } = Config.WingedUsagesPerAct;
     
-    public override bool IsUsedUp => TimesUsed >= _roomCount;
+    public override bool IsUsedUp => TimesUsed >= Usages;
     public override bool ShowCounter => !IsUsedUp;
-    public override int DisplayAmount => _roomCount - TimesUsed;
+    public override int DisplayAmount => Usages - TimesUsed;
 
     protected override IEnumerable<DynamicVar> CanonicalVars =>
     [
-        new (RoomsKey, _roomCount),
-        new (ExtraRoomsPerActKey, _extraRoomsPerAct)
+        new (UsagesKey, Usages),
+        new (ExtraUsagesPerActKey, ExtraUsagesPerAct)
     ];
 
     [SavedProperty]
@@ -37,7 +37,7 @@ public class AdvancedWingedBoots() : AjamaModifiersRelic
         {
             AssertMutable();
             field = value;
-            DynamicVars[RoomsKey].BaseValue = (_roomCount - field);
+            DynamicVars[UsagesKey].BaseValue = (Usages - field);
             InvokeDisplayAmountChanged();
             CheckIfUsedUp();
         }
@@ -75,7 +75,7 @@ public class AdvancedWingedBoots() : AjamaModifiersRelic
     public override Task AfterActEntered()
     {
         if (Owner.RunState.CurrentActIndex == 0) return Task.CompletedTask;
-        TimesUsed -= _extraRoomsPerAct;
+        TimesUsed -= ExtraUsagesPerAct;
         return Task.CompletedTask;
     }
 
