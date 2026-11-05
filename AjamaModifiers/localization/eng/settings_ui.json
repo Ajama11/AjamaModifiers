@@ -8,5 +8,7 @@
   "AJAMAMODIFIERS-WINGED_BASE_USAGES.title": "Base Usages",
   "AJAMAMODIFIERS-WINGED_BASE_USAGES.hover.desc": "Requires a game restart.",
   "AJAMAMODIFIERS-WINGED_USAGES_PER_ACT.title": "Extra Usages Per Act",
-  "AJAMAMODIFIERS-WINGED_USAGES_PER_ACT.hover.desc": "Requires a game restart."
+  "AJAMAMODIFIERS-WINGED_USAGES_PER_ACT.hover.desc": "Requires a game restart.",
+  "AJAMAMODIFIERS-SOULSTONED.title": "Soulstoned",
+  "AJAMAMODIFIERS-SOULSTONED_CHARACTER_OPTIONS.title": "Number of Options"
 }

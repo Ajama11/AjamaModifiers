@@ -38,5 +38,8 @@
   "AJAMAMODIFIERS-CONDENSE_TIME.title": "Condense Time",
   "AJAMAMODIFIERS-CONDENSE_TIME.description": "You may [gold]Enchant[/gold] cards with [purple]Accelerated[/purple] at Rest Sites [blue]3[/blue] times, making them cost [blue]1[/blue] less Energy.",
   "AJAMAMODIFIERS-LOOKING_GLASS.title": "Looking Glass",
-  "AJAMAMODIFIERS-LOOKING_GLASS.description": "Start with [gold]Glass Eye[/gold]."
+  "AJAMAMODIFIERS-LOOKING_GLASS.description": "Start with [gold]Glass Eye[/gold].",
+  "AJAMAMODIFIERS-SOULSTONED.title": "Soulstoned",
+  "AJAMAMODIFIERS-SOULSTONED.description": "Choose [blue]1[/blue] of [blue]{Options}[/blue] characters. Card rewards from combats gain an additional card from them.",
+  "AJAMAMODIFIERS-SOULSTONED.selectionScreenPrompt": "Choose a character."
 }

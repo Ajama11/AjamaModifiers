@@ -14,5 +14,8 @@
   "AJAMAMODIFIERS-ELECTRIC_EEYL.flavor": "\"Ooh, girl!\"",
   "AJAMAMODIFIERS-CONDENSED_TIME.title": "Condensed Time",
   "AJAMAMODIFIERS-CONDENSED_TIME.description": "#You may [gold]Enchant[/gold] cards with [purple]Accelerated[/purple] at Rest Sites {AmountRemaining:plural:[blue]{}[/blue] time|[blue]{}[/blue] times}.",
-  "AJAMAMODIFIERS-CONDENSED_TIME.flavor": "Sand flows in a state of exponential entropy, forward and back."
+  "AJAMAMODIFIERS-CONDENSED_TIME.flavor": "Sand flows in a state of exponential entropy, forward and back.",
+  "AJAMAMODIFIERS-SOULSTONE.title": "{Character}'s Soulstone",
+  "AJAMAMODIFIERS-SOULSTONE.description": "Card rewards from combats gain an additional card from [gold]{Character}[/gold].",
+  "AJAMAMODIFIERS-SOULSTONE.flavor": "Multiclassing made easy."
 }

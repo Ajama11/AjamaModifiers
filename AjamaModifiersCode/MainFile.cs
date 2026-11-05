@@ -1,8 +1,12 @@
 using System.Reflection;
+using AjamaModifiers.AjamaModifiersCode.Cards;
 using BaseLib.Config;
+using BaseLib.Patches.Localization;
 using Godot;
 using HarmonyLib;
+using MegaCrit.Sts2.Core.Entities.Creatures;
 using MegaCrit.Sts2.Core.Modding;
+using MegaCrit.Sts2.Core.Models;
 
 namespace AjamaModifiers.AjamaModifiersCode;
 
@@ -25,5 +29,12 @@ public partial class MainFile : Node
 
         Harmony harmony = new(ModId);
         harmony.PatchAll(assembly);
+
+        DescriptionOverrides.CustomizeDescriptionPost += (card, _, ref description) =>
+        {
+            if (card is not SoulstoneChoice soulstoneChoice) return;
+
+            description = soulstoneChoice.GetDescription().GetFormattedText();
+        };
     }
 }
