@@ -23,7 +23,8 @@ public class SoulstoneChoice() : AjamaModifiersCard(0,
     public CharacterModel? CharacterModel;
     
     protected override bool IsPlayable => false;
-    
+    public override int MaxUpgradeLevel => 0;
+
     public override CardPoolModel VisualCardPool => CharacterModel?.CardPool ?? base.VisualCardPool;
     public override string CustomPortraitPath => _portraitPath ?? base.CustomPortraitPath;
     
