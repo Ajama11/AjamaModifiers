@@ -80,8 +80,8 @@ public class AdvancedWingedBoots() : AjamaModifiersRelic
     {
         if (Owner.RunState.CurrentActIndex == 0)
         {
-            SfxCmd.Play(FmodSfx.merchantDisappointment, 5);
-            MainFile.Logger.Warn($"Winged Boots say it's Act 1 and received AfterActEntered because of some other mod.\nCurrentActIndex: {Owner.RunState.CurrentActIndex}\nTimesUsed before: {TimesUsed}\nTimesUsed theoretically afterwards but got skipped: {TimesUsed - ExtraUsagesPerAct}\nExtraUsagesPerAct: {ExtraUsagesPerAct}\nUsages: {Usages}");
+            // SfxCmd.Play(FmodSfx.merchantDisappointment, 5);
+            // MainFile.Logger.Warn($"Advanced Winged Boots say it's Act 1 and received AfterActEntered because of some other mod.\nCurrentActIndex: {Owner.RunState.CurrentActIndex}\nTimesUsed before: {TimesUsed}\nTimesUsed theoretically afterwards but got skipped: {TimesUsed - ExtraUsagesPerAct}\nExtraUsagesPerAct: {ExtraUsagesPerAct}\nUsages: {Usages}");
             return Task.CompletedTask;
         }
         TimesUsed -= ExtraUsagesPerAct;
