@@ -1,7 +1,10 @@
 using AjamaModifiers.AjamaModifiersCode.Relics;
+using MegaCrit.Sts2.Core.Audio;
+using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Relics;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MegaCrit.Sts2.Core.Map;
+using MegaCrit.Sts2.Core.Nodes.Screens.Map;
 using MegaCrit.Sts2.Core.Rooms;
 using MegaCrit.Sts2.Core.Runs;
 using MegaCrit.Sts2.Core.Saves.Runs;
@@ -50,7 +53,8 @@ public class AdvancedWingedBoots() : AjamaModifiersRelic
         if (IsUsedUp || 
             Owner.RunState.CurrentRoomCount > 1 || 
             Owner.RunState is not RunState runState || 
-            runState.VisitedMapCoords.Count <= 1)
+            runState.VisitedMapCoords.Count <= 1 ||
+            (NMapScreen.Instance?.IsDebugTravelEnabled ?? false))
         {
             return Task.CompletedTask;
         }
@@ -74,7 +78,12 @@ public class AdvancedWingedBoots() : AjamaModifiersRelic
 
     public override Task AfterActEntered()
     {
-        if (Owner.RunState.CurrentActIndex == 0) return Task.CompletedTask;
+        if (Owner.RunState.CurrentActIndex == 0)
+        {
+            SfxCmd.Play(FmodSfx.merchantDisappointment, 5);
+            MainFile.Logger.Warn($"Winged Boots say it's Act 1 and received AfterActEntered because of some other mod.\nCurrentActIndex: {Owner.RunState.CurrentActIndex}\nTimesUsed before: {TimesUsed}\nTimesUsed theoretically afterwards but got skipped: {TimesUsed - ExtraUsagesPerAct}\nExtraUsagesPerAct: {ExtraUsagesPerAct}\nUsages: {Usages}");
+            return Task.CompletedTask;
+        }
         TimesUsed -= ExtraUsagesPerAct;
         return Task.CompletedTask;
     }

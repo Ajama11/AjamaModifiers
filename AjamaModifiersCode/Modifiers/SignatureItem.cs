@@ -26,10 +26,8 @@ public class SignatureItem() : AjamaModifier
                     or RelicRarity.Rare)
             .ToList();
         
-        player.PlayerRng.Rewards.Shuffle(characterRelics);
-        
-        RelicModel relic = 
-            characterRelics.FirstOrDefault() 
+        RelicModel relic =
+            player.PlayerRng.Rewards.NextItem(characterRelics)
             ?? ModelDb.Relic<DarkstonePeriapt>();
 
         await RelicCmd.Obtain(relic.ToMutable(), player);
